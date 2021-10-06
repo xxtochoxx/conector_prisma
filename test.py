@@ -12,3 +12,4 @@ data = '{ "tags": [ "string" ], "protocol": "string", "host": "string", "fqdn": 
 response = requests.post('http://localhost:8080/api/v2/endpoints/', headers=headers, data=data)
 
 print (response.status_code)
+print ("Generado!!!!!")
